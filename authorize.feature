@@ -4,5 +4,5 @@ Feature: Authorization
     Given I get to the registration form
     When I input random user credentials in registration form
     And I submit the registration details
-    And I decline the exclusive offers
-    Then the correct welcome message is displayed with my name
+    Then I enter the created user credentials
+    And I sign in the application

@@ -23,4 +23,8 @@ class Register
   def set_repassword(text)
     @repassword_field.set(text)
   end
+
+  def sign_up_button_click
+    @sign_up_button.click
+  end
 end
